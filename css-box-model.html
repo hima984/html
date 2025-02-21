@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport"context="width=device_width initial-scale=1.0">
+ 	<title>CSS Box Model demonstration</title>
+ 	<style>
+ 		body{
+ 			font-family: arial,sans-serif;
+ 			margin: 20px;
+ 		}
+ 		.box{
+ 			width: 200px;
+ 			margin: 20px;
+ 			padding: 15px;
+ 			border: 5px solid#333;
+ 			background-color: #f0f0f0;
+ 		}
+ 		.box.context{
+ 			background-color: #fff;
+ 			padding: 10px;
+ 		}
+ 	</style>
+ </head>
+ <body>
+ 	<h1>CSS Box Model Demonstration</h1>
+ 	<div class="box">
+ 		<div class="context">
+ 			<p>this is the context area.</p>
+ 			<ul>
+ 				<li><strong>Padding</strong>:space between the context and the border</li>
+ 				<li><strong>Border</strong>:the border surrounding the padding</li>
+ 				<li><strong>Margin</strong>:space outside the border.seperating the elements from the other</li>
+ 			</ul>
+ 		</div>
+ 	</div>
+ </body>
+ </html>
